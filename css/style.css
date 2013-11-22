@@ -1,0 +1,148 @@
+@import url('font.css');
+
+body{
+
+background-color: #000;
+  font-family: 'Open Sans';}
+
+.nav{
+background-color: #f7f7f7;
+margin-top: -8px;
+margin-left: 88px;
+width: 1172px;
+height: 70px;
+z-index: -1;
+}
+.nav img{
+width: 95px;
+height: 62px;
+margin-left: 167px;
+margin-top: 0px;
+
+}
+
+.menu ul,li{  
+float: right;
+margin: -73px 42px 40px 32px;
+padding: 15px 0px 0px 4px;
+list-style: none;
+}
+
+
+.logo img{
+  margin: 0px 0px 0px 0px ;
+}
+.slider img{
+margin: -14px -2px -6px 88px;
+width: 1172px;
+}
+.sec1{
+background-color: #f7f7f7;
+width: 1172px;
+height: 400px;
+margin: -15px 16px 21px 88px;}
+
+.sec1 img{
+border-radius: 55%;
+margin: 26px 6px 7px 26px;
+width: 350px;
+height: 350px;
+}
+.sec1 p{
+  margin: -341px 0px 0px 383px;
+}
+.sec2 p{
+position: absolute;
+width: 311px;
+margin: -327px 0px 0px 857px;
+float: right;
+font-size: 18px;
+
+}
+.sec2 img{
+margin: -40px 0px 0px 88px;
+width: 1172px
+}
+.sec3{
+background-color: #f7f7f7;
+width: 1172px;
+height: 400px;
+margin: -15px 16px 21px 88px;
+
+
+}
+.sec3 img{
+border-radius: 55%;
+margin: 26px 6px 7px 26px;
+width: 350px;
+height: 350px;
+float: right;
+}
+.sec3 p{
+margin: 55px 0px 0px 31px;}
+
+
+.sec4{
+background-color: #686868;
+width: 1172px;
+height: 400px;
+margin: -55px 16px 21px 88px;
+display: block;
+
+}
+.sec4 img{
+margin: 77px 84px 13px 33px;
+width: 189px;
+height: 100px;
+float: right;
+}
+.sec4 p{
+margin: 0px -4px -21px 732px;
+float: right;
+color: white;
+font-size: 14px;
+ }
+.sec5 p{
+margin: -186px 299px -17px 608px;
+float: right;
+color: white;
+width: 400px;
+font-size: 24px;
+ }
+ .sec6 p{
+margin: -186px 593px -17px 608px;
+float: right;
+color: white;
+width: 400px;
+font-size: 24px;
+display: block;
+ }
+ .sec6 li,ul{
+
+
+ }
+.footer{
+margin-top: -336px;
+margin-left: 493px;
+font-size: 35px;
+color: white;
+}
+.link{
+margin-top: -80px;
+margin-left: 203px;
+font-size: 35px;
+color: white;}
+
+.shape {
+width: 415px;
+padding: 10px;
+border: 1px solid gray;
+margin: -425px -3px 2px 782px;
+height: 326px;
+position: absolute;
+background-color: white;
+opacity: 0.1;
+}
+.shape p{
+color: #000;
+}
