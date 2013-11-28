@@ -7,13 +7,18 @@
 	background: #960000;
 	color: white;
 }
+section#article .img img{
+	color: #0c0c0c;
+	text-decoration: none;
+	transition: all 0.4s;
+}
 a{
 	color: #0c0c0c;
 	text-decoration: none;
 	transition: all 0.4s;
 }
 a:hover{
-	opacity: 0.8;
+	opacity: 1;
 }
 body{
 	color: #0c0c0c;
@@ -65,7 +70,7 @@ section#slider:first-child{
 section.slider{
 	background: white url('../images/slider.jpg') no-repeat;
 	height: 455px;
-	background-size: 100% 100%;
+background-size: 100% 70%;
 	background-attachment: fixed;
 	position: relative;
 }
@@ -86,6 +91,7 @@ section.slider div.caption{
 	opacity: 0.5;
 	text-align: center;
 	padding: 40px;
+font-size: 18px;
 }
 
 /*article	*/
@@ -105,17 +111,26 @@ section#article .img{
 	float: left;
 	width: 30%;
 	padding: 0 30px 0 30px;
+	/*overflow:hidden;*/
+}
+section#article .img img:hover{
+	transform: rotate(5deg) scale(1.05);
 }
 section#article .img img{
-	border-radius: 9999px;
-	width: 100%;
+
+border-radius: 9999px;
+width: 100%;
+transition: all 0.4s;
+-o-transition: all 0.4s;
+opacity: 0.5;
 }
+
 section#article div.right{
 	float: right;
 
 }
 section#article > div div{ 	
-	padding-top: 7%;
+	padding-top: 2%;
 }
 /*footer*/
 footer{
@@ -173,4 +188,24 @@ footer .zonet p{
 
 .c{
 	clear: both;
+}
+p{
+
+	margin-bottom: 10px;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+/*btn*/
+.btn{
+	padding: 20px 50px;
+	background: #880000;
+	color: white;
+}
+section#article .img img:hover{
+transform: rotate(5deg) scale(1.05);
+opacity: 1;
 }
